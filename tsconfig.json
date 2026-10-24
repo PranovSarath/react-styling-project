@@ -1,0 +1,39 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+
+    // Environment Settings
+    "module": "ESNext",
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "types": ["node"],
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // JavaScript support (for JSX files)
+    "allowJs": true,
+    "checkJs": false,
+
+    // Stricter Typechecking Options
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Style Options
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+
+    // Recommended Options
+    "strict": true,
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+  },
+  "include": ["src/**/*.js", "src/**/*.jsx"],
+}
